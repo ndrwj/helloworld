@@ -7,5 +7,5 @@ WORKDIR /home/root/javahelloworld
 RUN mkdir bin
 RUN javac -d bin src/helloworld.java
 
-ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
+ENTRYPOINT ["java", "-cp", "bin", "helloworld"]
 
